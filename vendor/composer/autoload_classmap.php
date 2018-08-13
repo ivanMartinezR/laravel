@@ -7,6 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'AddCreatedAtIndexToMessagesTable' => $baseDir . '/database/migrations/2018_08_10_185226_add_created_at_index_to_messages_table.php',
+    'AddUserIdColumnToMessagesTable' => $baseDir . '/database/migrations/2018_08_13_190449_add_user_id_column_to_messages_table.php',
+    'AddUsernameAndAvatarToUsersTable' => $baseDir . '/database/migrations/2018_08_13_202842_add_username_and_avatar_to_users_table.php',
     'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
     'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
     'CreateMessagesTable' => $baseDir . '/database/migrations/2018_08_10_183621_create_messages_table.php',
