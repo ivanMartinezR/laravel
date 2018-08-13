@@ -34,7 +34,7 @@
 			</p>
 		</div>
 	@empty
-		<p>No hay mensajes destacados.</p>
+		<p>No hay mensajes destacados...</p>
 	@endforelse
 </div>
 @endsection
