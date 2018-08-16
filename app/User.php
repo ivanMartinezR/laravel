@@ -28,6 +28,10 @@ class User extends Authenticatable
     ];
 
     public function messages(){
+<<<<<<< HEAD
         return $this->hasMany(Message::class)->orderBy('created_at','desc');
+=======
+        return $this->hasMany()(Message::class);
+>>>>>>> 09dc42edc533234ff5427dcf35d566e0a5488e78
     }
 }

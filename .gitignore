@@ -6,5 +6,8 @@ services.json
 events.scanned.php
 routes.scanned.php
 down
+<<<<<<< HEAD
 
 /node_modules
+=======
+>>>>>>> 09dc42edc533234ff5427dcf35d566e0a5488e78
