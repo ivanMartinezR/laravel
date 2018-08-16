@@ -29,12 +29,9 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 $factory->define(App\Message::class, function(Faker\Generator $faker){
 	return [
 		'content' => $faker->realText(random_int(20,160)),
-<<<<<<< HEAD
 		'image'=> 'https://picsum.photos/600/338?image='.rand(0,1000),
         'created_at'=>$faker->dateTimeThisDecade,
         'updated_at'=>$faker->dateTimeThisDecade
-=======
-		'image'=> $faker->imageUrl(600,338)
->>>>>>> 09dc42edc533234ff5427dcf35d566e0a5488e78
+
 	];
 });
